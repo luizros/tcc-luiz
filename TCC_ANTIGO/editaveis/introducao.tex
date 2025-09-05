@@ -1,0 +1,49 @@
+\chapter[Introdução]{Introdução}
+
+Este capítulo apresenta a \textcolor{blue}{Contextualização} do problema, destacando estudos iniciais sobre modelagem de comportamentos em cenários competitivos, com ênfase em abordagens para robôs futebolísticos. Em seguida, são detalhados a \textcolor{blue}{Justificativa} da pesquisa e os \textcolor{blue}{Objetivos} propostos. Por fim, descreve-se a \textcolor{blue}{Estrutura do Documento}, oferecendo uma visão resumida da organização dos capítulos que compõem o trabalho.
+
+\section{Contextualização}
+
+A \textit{Small Size League} (SSL)\cite{kitano1997robocup} da RoboCup emerge como um dos principais cenários para a criação de pesquisa em robótica multiagente. A liga foi criada com o objetivo de desenvolver e testar técnicas avançadas de inteligência artificial, controle e visão computacional aplicadas a robôs futebolistas. Um dos desafios centrais nesse cenário é a capacidade de estimar e modelar as ações e estratégias dos oponentes, antecipando seu próximo estado para otimizar a tomada de decisão da equipe.
+
+A modelagem de comportamentos em cenários competitivos, remonta à teoria dos jogos, proposta por John von Neumann e Oskar Morgenstern em 1944 \cite{neumann1944theory}. Essa teoria estabeleceu bases matemáticas para análise de interações estratégicas entre agentes, inicialmente aplicada a jogos de soma zero. Com o tempo, a modelagem de oponentes evoluiu, incorporando técnicas de inteligência artificial (IA) e aprendizado de máquina (ML) para prever e adaptar-se a comportamentos dinâmicos em ambientes complexos.
+
+No contexto do futebol de robôs, a modelagem de oponentes é entendida como a capacidade de inferir o estado interno e antecipar ações de agentes adversários, mesmo quando suas intenções e estratégias são parcialmente observáveis \cite{kitano1997robocup}. Isso envolve desde estimativas de trajetórias até identificação de padrões estratégicos, como táticas agressivas ou defensivas. Sistemas de modelagem podem ser projetados para adaptar-se a oponentes arbitrários ou específicos, definindo estratégias ótimas com base em critérios como eficiência energética, precisão preditiva e tempo de resposta \cite{stone2000layered}.
+
+Técnicas de Aprendizado Profundo vêm ganhando destaque nesse contexto, graças à capacidade de aprender representações hierárquicas e abstrair padrões complexos de grandes volumes de dados \cite{lecun2015deep}. Arquiteturas como Redes Neurais Recorrentes (RNNs) e Redes Neurais Convolucionais (CNNs) têm sido aplicadas à previsão de trajetórias e reconhecimento de padrões em sistemas multiagentes \cite{goodfellow2016deep}. Contudo, sua aplicação no futebol de robôs enfrenta desafios como exigência de processamento em tempo real, recursos computacionais limitados e variabilidade comportamental dos adversários.
+
+Algumas abordagens baseadas em \textit{Reinforcement Learning} (RL) também demonstram potencial significativo para tomada de decisão em cenários dinâmicos \cite{sutton2018reinforcement}. Modelos como \textit{Deep Q-Network} (DQN) \cite{mnih2015human}, \textit{Proximal Policy Optimization} (PPO) \cite{schulman2017proximal} e \textit{Deep Deterministic Policy Gradient} (DDPG) \cite{lillicrap2015continuous} são empregados no treinamento de agentes autônomos em jogos \cite{silver2016mastering} e na robótica \cite{Kober2013}.
+
+Neste trabalho, propõe-se a avaliação de modelos baseados em aprendizado de máquina para a previsão de comportamentos de robôs adversários usando dados históricos (arquivos de logs) de partidas de futebol da \textit{Small Size League} (SSL) da RoboCup, na categoria B. O objetivo final é estabelecer uma base para a criação de modelos de previsão de comportamento na categoria de entrada da \textit{Small Size League Entry-Level} (SSL-EL) da RoboCup Brasil, categoria na qual a equipe da Universidade de Brasília, os Titans, compete. 
+
+
+
+\section{Objetivos}
+
+O objetivo deste trabalho é avaliar modelos baseados em aprendizado de máquina para previsão de comportamentos de robôs futebolísticos a partir de dados históricos das partidas da \textit{Small Size League}.
+
+\subsection{Objetivos Específicos}
+
+\begin{itemize}
+    \item \textbf{Revisão da literatura:} Realizar um levantamento bibliográfico para identificar abordagens, modelos e técnicas aplicadas na previsão de comportamentos em robótica, com foco no contexto de futebol de robôs futebolísticos.
+    
+    \item \textbf{Desenvolvimento de um modelo baseado em aprendizado:} Fazer testes de diferentes arquiteturas baseadas em aprendizado para estimar comportamentos de robôs futebolísticos.
+
+    \item \textbf{Avaliação de desempenho:} Analisar o modelo desenvolvido em termos de precisão, eficiência e robustez, e possibilidade de portabilidade para cenários semelhantes a categoria SSL como por exemplo, a liga SSL-EL.
+
+    \item \textbf{Comparação com abordagens existentes:} Comparar o desempenho do modelo proposto com outras técnicas ou modelos já utilizados no mesmo contexto, destacando avanços e limitações observados.
+
+\end{itemize}
+
+\section{Estrutura do Documento}
+
+Este documento está organizado da seguinte forma:
+
+\begin{itemize}
+    \item \textbf{Capítulo 2:} Apresenta o referencial teórico, abordando os fundamentos de modelagem de oponentes e suas aplicações em robótica.
+    \item \textbf{Capítulo 3:} Descreve a metodologia empregada, incluindo os procedimentos e técnicas adotados para o desenvolvimento e avaliação do modelo.
+    \item \textbf{Capítulo 4:} Apresenta os resultados obtidos durante o treinamento e avaliação dos modelos, com análises quantitativas e qualitativas.
+    \item \textbf{Capítulo 5:} Conclui o trabalho, discutindo os resultados alcançados, suas implicações práticas e propondo  para pesquisas futuras.
+\end{itemize}
+
+
