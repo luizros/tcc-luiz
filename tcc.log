@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.9.2)  3 SEP 2025 09:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.9.2)  5 SEP 2025 10:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1143,7 +1143,7 @@ lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf
 x10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.p
 fb>
-Output written on tcc.pdf (59 pages, 1957807 bytes).
+Output written on tcc.pdf (59 pages, 1957663 bytes).
 PDF statistics:
  643 PDF objects out of 1000 (max. 8388607)
  549 compressed objects within 6 object streams
